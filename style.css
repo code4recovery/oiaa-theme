@@ -1,0 +1,14 @@
+/*
+ Theme Name:   Online Intergroup
+ Theme URI:    https://aa-intergroup.org
+ Description:  GeneratePress child theme
+ Template:     generatepress
+ Version:      0.1
+*/
+
+#root {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+}
