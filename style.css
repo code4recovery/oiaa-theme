@@ -6,7 +6,21 @@
  Version:      0.1
 */
 
-#root {
+body.meetings,
+#page {
+    background-color: #F7FAFC !important;
+}
+
+body.meetings #content {
+    padding: 0;
+}
+
+body.meetings #masthead,
+.featured-image {
+    display: none;
+}
+
+body.meetings #root {
     align-items: center;
     display: flex;
     justify-content: center;

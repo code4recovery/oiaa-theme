@@ -1,4 +1,10 @@
 <?php
+
+add_filter('body_class', 'add_meetings_class');
+function add_meetings_class($classes) {
+    return array_merge($classes, array('meetings'));
+}
+
 get_header();
 
 echo '<div id="root"></div>';
