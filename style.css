@@ -6,9 +6,12 @@
  Version:      0.1
 */
 
-body.meetings,
-#page {
+body.meetings {
     background-color: #F7FAFC !important;
+}
+
+body.meetings #page {
+    background-color: transparent;
 }
 
 body.meetings #content {
